@@ -1,11 +1,16 @@
 {
   "name": "challenge-day1",
   "version": "1.0.0",
-  "description": "",
   "main": "challenge.js",
   "scripts": {
+    "sass": "sass styles.scss:styles.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
 }
